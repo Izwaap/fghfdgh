@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form>
+      <h1>Анкета на Програмиста</h1>
+
+      <fieldset>
+          <legend>Контактна інформація</legend>
+
+          <label>
+              <p>Ім'я:</p>
+              <input type="text">
+          </label>
+
+          <label>
+              <p>Телефон:</p>
+              <input type="tel">
+          </label>
+
+          <label>
+              <p>Пошта:</p>
+              <input type="email">
+          </label>
+      </fieldset>
+
+      <fieldset>
+          <legend>Скільки вам років</legend>
+
+          <label>
+              <input type="radio" name="age">
+              до 18
+          </label> <br>
+
+          <label>
+              <input type="radio" name="age">
+              від 18 до 30
+          </label> <br>
+
+          <label>
+              <input type="radio" name="age">
+              більше 30
+          </label>
+      </fieldset>
+
+
+
+      <h2>Які мови программування ви знаєте?</h2>
+      <label>
+          <input type="checkbox" name="social">
+          C#
+      </label> <br>
+
+      <label>
+          <input type="checkbox" name="social">
+          C++
+      </label> <br>
+
+      <label>
+          <input type="checkbox" name="social">
+          Python
+      </label> <br>
+
+      <label>
+          <input type="checkbox" name="social">
+          Свій варіант
+          <input type="text" name="social">
+      </label>
+
+      <h2>Побажання:</h2>
+      <textarea name="" id="" cols="40" rows="10" placeholder="Я хочу щоб мені платили і бла бла бла..."></textarea>
+      <br>
+
+      <button type="submit">Надіслати</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
